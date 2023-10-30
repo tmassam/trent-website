@@ -1,10 +1,10 @@
 import "./app.scss";
-import Contact from "./Components/Contact/Contact.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import Contact from "./Components/Contact/Contact";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
 //import Parallax from "./components/Parallax/Parallax";
-import Portfolio from "./components/Portfolio/Portfolio.jsx";
-import Services from "./components/Services/Services.jsx";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Services from "./components/Services/Services";
 
 const App = () => {
   return (
