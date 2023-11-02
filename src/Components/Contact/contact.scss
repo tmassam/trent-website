@@ -30,6 +30,7 @@
     h1 {
       font-size: 100px;
       line-height: 88px;
+      color: #c2f4ff;
 
       @include mobile {
         font-size: 36px;
@@ -51,7 +52,7 @@
     }
 
     .phoneSvg {
-      stroke: #49fb35;
+      stroke: #c2f4ff;
       position: absolute;
       margin: auto;
       z-index: -1;
@@ -74,11 +75,17 @@
           padding: 10px;
         }
       }
+      ::placeholder {
+        color: white;
+        opacity: 50%;
+      }
 
       button {
         padding: 20px;
         border: none;
-        background-color: #49fb35;
+        background-color: #c2f4ff;
+        opacity: 75%;
+        color: black;
         cursor: pointer;
         font-weight: 500;
         @include mobile {

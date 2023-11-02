@@ -61,10 +61,6 @@ const Contact = () => {
           <span>trentmassam@outlook.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>Greenwich, CT</span>
-        </motion.div>
-        <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
           <span>+1 4013682123</span>
         </motion.div>

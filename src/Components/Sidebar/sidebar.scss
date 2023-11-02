@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #c2f4ff;
   color: black;
 
   .bg {
@@ -14,7 +14,7 @@
     left: 0;
     bottom: 0;
     width: 400px;
-    background: white;
+    background: #c2f4ff;
 
     @include mobile {
       width: 200px;
@@ -32,6 +32,7 @@
 
       a {
         font-size: 40px;
+        color: black; //make same color as that blue text
 
         @include mobile {
           font-size: 20px;

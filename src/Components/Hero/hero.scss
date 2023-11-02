@@ -3,8 +3,9 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #379683, #5cdb95);
+  background: linear-gradient(180deg, #0d0a0b, #009fc2);
   position: relative;
+  z-index: 0;
 
   .wrapper {
     max-width: 1366px;
@@ -29,7 +30,7 @@
 
       h2 {
         font-size: 30px;
-        color: #05386b;
+        color: #c2f4ff;
         letter-spacing: 10px;
       }
 
@@ -51,6 +52,7 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
+          z-index: 1;
         }
       }
 
@@ -88,5 +90,6 @@
     color: #ffffff1d;
     width: 50%;
     font-weight: bold;
+    z-index: -1;
   }
 }
