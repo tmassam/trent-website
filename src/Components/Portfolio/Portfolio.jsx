@@ -33,7 +33,7 @@ const items = [
     title: "Network Traffic Visualizer",
     img: "Network-Traffic.png",
     desc: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum",
+      "Capture Network Traffic:  Wireshark to capture network traffic going to and from the device - The captured data is saved in pcap format. Python Implementation: Read the captured pcap file and extracts source and destination IP addresses. Geo-Location Mapping: Python script attaches geographical coordinates (latitude and longitude) to the IP addresses using the GeoLiteCity database. KML File Generation: The Python script generates a KML (Keyhole Markup Language) file, which is a format used for geographic data. Google Maps Integration: The generated KML file can be integrated into Google Maps, allowing visualization of network traffic data on the map",
     ],
   },
 ];
@@ -61,7 +61,7 @@ const Single = ({ item }) => {
   }
 
   return (
-    <section>
+    <section id="Portfolio">
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
@@ -78,7 +78,6 @@ const Single = ({ item }) => {
                 return null; // Skip empty sentences
               })}
             </ul>
-            <button>See Demo</button>
           </motion.div>
         </div>
       </div>
